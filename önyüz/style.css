@@ -1,0 +1,357 @@
+
+
+
+
+.social{
+    background-color:#ffffff;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top:0 ;
+    z-index: 1;
+    font: 18px;
+    text-align: right;
+    padding:15px;
+    font-weight: bolder;
+    
+}
+
+font{
+    float:left ;
+    letter-spacing:6px ;
+
+}
+span{
+    font-size: 12px;
+    letter-spacing: 0;
+    
+}
+.social>i{
+    margin-right:45px ;
+    font-weight: bolder;
+}
+.container{
+   width: 80%;
+    margin: auto;
+    height: auto;
+    
+   
+}
+
+
+header{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 700px;
+}
+
+.headerResim{
+    width: 40%;
+    
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%),-50%;
+    font-family: Calibri;
+}
+
+.centered font{
+    float:left ;
+    letter-spacing:0.2px ;
+    font-weight: bolder;
+}
+.centered span{
+    font-size: 20px;
+   
+    display:block;
+    margin-top: 5px;
+   
+}
+
+
+.centered font .btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    background-color:  rgb(12, 16, 226);
+    border-radius: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all ease;
+}
+.container font .btn:hover{
+    background-color: rgb(121, 201, 221);
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+.icerik{
+    width: 32%;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+    margin: 10px
+
+}
+.rsm{
+   float: left;
+
+
+}
+h5{
+   margin-left: 300px;
+}
+ h5 span{
+  display: block;
+  font-weight: bolder;
+}
+.btnDevam{
+   
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    background-color:  rgb(12, 16, 226);
+    border-radius: 35px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all ease;
+    
+}
+    
+
+.btnDevam:hover{
+    background-color: rgb(121, 201, 221);
+}
+
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+   
+#Menülink {
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    background-color:  rgb(12, 16, 226);
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all ease;
+}
+
+#Menülink:hover+#test {
+    display: block;
+}
+ #test {
+        display: none;
+        position: absolute;
+        z-index: 999;
+        background-color: rgb(248, 242, 242);
+        padding: 1rem;
+        margin-top: 0rem;
+        
+    
+    }
+    
+    #test:hover {
+        display: block;
+    
+    }
+    .test2 {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        white-space: nowrap;
+    }
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+transition: 2s;
+}
+.slide img{
+    width: 500px;
+    height: 500px;
+}
+
+.navigation-manual{
+   position: absolute;
+   width: 500px;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+}
+.manual-btn{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(last-child)
+{
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: rgb(127, 112, 216);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+    
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+    
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+    
+}
+
+
+.icerik1 {
+    width: 32%;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+    left:150px;
+    top:50px;
+
+}
+.resm{
+float: left;
+padding-top: 120px;
+width: 32%;
+}
+
+h1{
+    padding-top: 40px;
+    z-index:100;
+    position:absolute;
+    display: block;
+    font-weight:normal
+}
+ 
+.resmB{
+    float: left;
+    padding-top: 120px;
+    margin-left: 20px;
+    width: 33%;
+}
+
+.resmWB{
+    float: right;
+    
+padding-top: 120px;
+width: 32%;
+
+}
+
+.icerik2{
+    
+display:left;
+    width: 22%;
+    height: auto;
+    margin-right: 5px;
+  
+}
+.lab1{
+    
+padding-top: 120px;
+margin-top: 20px;
+margin-right: 100px;
+margin-left: 450px;
+width: 210%;
+}
+ .btnDevam1{
+  
+    letter-spacing:1px ;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 35px 20px 20px;
+    background-color:  rgb(12, 16, 226);
+    border-radius: 35px;
+    margin-left: 650px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all ease;
+    margin-top: 30px;
+    margin-right:60px;
+    padding-right: 25px;
+    margin-bottom: 45px;
+    
+}
+
+
+
+
+.yukari{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: rgb(12, 16, 226);
+    color: rgb(250, 249, 249);
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.container1{
+    max-width: 1170px;
+    background-color: rgb(241, 216, 237);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+    background: 0;
+margin-top: 45px;
+}
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(72, 72, 172);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+}
+
